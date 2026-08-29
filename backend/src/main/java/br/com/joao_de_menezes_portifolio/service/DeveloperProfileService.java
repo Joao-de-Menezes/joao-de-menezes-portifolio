@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @RequiredArgsConstructor
-public class DeveloperProfileSevice {
+public class DeveloperProfileService {
     private final DeveloperProfileRepository profileRepository;
 
     @Transactional
