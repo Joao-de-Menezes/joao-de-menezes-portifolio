@@ -15,4 +15,31 @@ public class Skill {
     private String name;       // Java, Spring Boot, React
     private String category;   // Backend, Frontend, Database
     private String level;      // Beginner, Intermediate, Advanced
+
+    public Skill() {
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public String getLevel() {
+        return level;
+    }
+
+    public void setLevel(String level) {
+        this.level = level;
+    }
 }
