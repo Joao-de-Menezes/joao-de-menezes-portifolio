@@ -11,7 +11,7 @@ public class DeveloperProfile {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String fullName; // João de Menezes Ferreira Júnoir
+    private String fullName; // João de Menezes Ferreira Júnior
     private int age;
     private String headline;
     private String email;
