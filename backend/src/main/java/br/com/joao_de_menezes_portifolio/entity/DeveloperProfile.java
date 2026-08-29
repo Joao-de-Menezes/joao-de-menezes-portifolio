@@ -24,6 +24,10 @@ public class DeveloperProfile {
     public DeveloperProfile() {
     }
 
+    public Long getId() {
+        return id;
+    }
+
     public String getFullName() {
         return fullName;
     }

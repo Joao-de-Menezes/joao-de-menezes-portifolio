@@ -45,6 +45,10 @@ public class Project {
     public Project() {
     }
 
+    public Long getId() {
+        return id;
+    }
+
     public String getTitle() {
         return title;
     }
